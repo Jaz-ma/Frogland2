@@ -78,7 +78,7 @@ nav{
     .logo svg{
         display :block;
         width:200px;
-        height: 75px;
+        height: 62px;
 
     }
     .burger{
@@ -86,7 +86,7 @@ nav{
     }
     #backround{
         background-color: rgba(10, 59, 10, 0.5);
-        transition :all 0.05s ease-in-out ;
+        transition :all 0.4s ease-in-out ;
     }
     .blur{
         filter: blur(4px);
