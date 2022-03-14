@@ -39,7 +39,6 @@ const navslide = () => {
                 nav.classList.remove('nav-active')
                 main.classList.remove('blur')
 
-                console.log(e.target)
 
                 navlinks.forEach((link)=>{
                         link.style.animation = ''

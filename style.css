@@ -24,6 +24,10 @@ nav{
     text-transform: uppercase;  
     letter-spacing: 2px;
 }
+.logo svg{
+    display: none;
+    
+}
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -51,6 +55,7 @@ nav{
         position: sticky;
         bottom: 0;
         top: auto ;
+        justify-content: space-between;
     }
     .nav-links{
         display: flex;
@@ -67,7 +72,18 @@ nav{
         transition : transform 0.5s ease-in-out;
         z-index: 3;
     }
+    .logo h1{
+        display: none;
+    }
+    .logo svg{
+        display :block;
+        width:200px;
+        height: 75px;
 
+    }
+    .burger{
+        margin-right: 3rem;
+    }
     #backround{
         background-color: rgba(10, 59, 10, 0.5);
         transition :all 0.05s ease-in-out ;
